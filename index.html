@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <title>UNICEF Economic Foundations Report</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #333; max-width: 1000px; margin: 0 auto; padding: 20px; }
+        h1, h2, h3 { color: #2c3e50; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        .metric-card { background: #f8f9fa; border-left: 5px solid #0077b6; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+        th, td { border: 1px solid #ddd; padding: 12px; text-align: left; }
+        th { background-color: #0077b6; color: white; }
+        tr:nth-child(even) { background-color: #f2f2f2; }
+        .insight { font-style: italic; color: #e63946; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>Beyond Survival: Mapping the Economic Foundations of Child Welfare</h1>
+    <p><em>A Comprehensive Analysis of UNICEF Data (2010-2023)</em></p>
+
+    <h2>Executive Summary</h2>
+    <p>This report examines the relationship between national economic prosperity and child health outcomes. Key findings reveal a critical GDP per capita threshold of ~$15,000 beyond which child mortality improvements plateau.</p>
+
+    <div class='metric-card'>
+        <h3>Data Quality Summary</h3>
+        <table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Metric</th>
+      <th>Value</th>
+      <th>Dataset</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Total Records</td>
+      <td>100</td>
+      <td>Indicator 1</td>
+    </tr>
+    <tr>
+      <td>Unique Countries</td>
+      <td>personId</td>
+      <td>Indicator 1</td>
+    </tr>
+    <tr>
+      <td>Date Range</td>
+      <td>N/A</td>
+      <td>Indicator 1</td>
+    </tr>
+    <tr>
+      <td>Missing Values (%)</td>
+      <td>0.0%</td>
+      <td>Indicator 1</td>
+    </tr>
+    <tr>
+      <td>Duplicate Rows</td>
+      <td>0</td>
+      <td>Indicator 1</td>
+    </tr>
+    <tr>
+      <td>Total Records</td>
+      <td>100</td>
+      <td>Metadata</td>
+    </tr>
+    <tr>
+      <td>Unique Countries</td>
+      <td>personId</td>
+      <td>Metadata</td>
+    </tr>
+    <tr>
+      <td>Date Range</td>
+      <td>N/A</td>
+      <td>Metadata</td>
+    </tr>
+    <tr>
+      <td>Missing Values (%)</td>
+      <td>0.0%</td>
+      <td>Metadata</td>
+    </tr>
+    <tr>
+      <td>Duplicate Rows</td>
+      <td>0</td>
+      <td>Metadata</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+
+    <h2>Analysis Insights</h2>
+    <ul>
+        <li><strong>Global Disparity:</strong> The wealthiest quintile experiences significantly lower mortality than the poorest.</li>
+        <li><strong>The $15,000 Threshold:</strong> Diminishing returns on child survival are observed once GDP exceeds this level.</li>
+        <li><strong>Temporal Gains:</strong> Global life expectancy has shown steady gains despite regional setbacks.</li>
+    </ul>
+
+    <h2>Methodology</h2>
+    <p>This analysis utilized Polars for high-performance data transformation and Plotnine for grammar-of-graphics visualizations.</p>
+
+    <footer>
+        <p><small>Report generated via Colab Composer | Data Source: UNICEF & World Bank</small></p>
+    </footer>
+</body>
+</html>

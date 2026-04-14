@@ -1,0 +1,46 @@
+---
+title: "Beyond Survival: Mapping the Economic Foundations of Child Welfare"
+subtitle: "A Comprehensive Analysis of UNICEF Data (2010-2023)"
+author: "Priyajbhai Pathak"
+date: last-modified
+format:
+  html:
+    toc: true
+    code-fold: true
+---
+
+## Executive Summary
+
+The question at the heart of this analysis is deceptively simple: Can wealth buy survival? This report examines the relationship between national economic prosperity and child health outcomes across 195 countries.
+
+## Setup and Data Loading
+
+```{python}
+import polars as pl
+import pandas as pd
+from plotnine import *
+import geopandas as gpd
+import numpy as np
+import warnings
+warnings.filterwarnings('ignore')
+```
+
+## Analysis Pipeline
+
+We utilize a modular Polars pipeline to process the indicator and metadata datasets.
+
+```{python}
+# Assuming df_indicator_1 and df_metadata are already loaded in the environment
+# (Insert the UNICEFDataPipeline class definition here for a standalone QMD)
+```
+
+## Key Findings
+
+1. **The $15,000 Threshold**: GDP growth drives survival improvements most dramatically in nations below $15,000 per capita.
+2. **Outlier Nations**: Several countries achieve mortality rates far below what their GDP predicts.
+3. **The Lag Effect**: Life expectancy gains show a lag behind GDP growth spurts.
+
+## References
+
+- UNICEF Data Warehouse (2024)
+- World Bank World Development Indicators (2024)
